@@ -82,7 +82,7 @@ Requests that return multiple items will be paginated to 10 items by default. Yo
 <Example>
 
 ```bash
-curl 'https://api.example.com/users?page=2&per_page=100'
+curl 'https://api.example.com/users?page=2&per_page=1000'
 ```
 
 </Example>

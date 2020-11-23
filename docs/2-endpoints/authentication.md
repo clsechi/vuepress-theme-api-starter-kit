@@ -23,6 +23,7 @@ POST /auth/login
 | username | string |  username   | :heavy_check_mark: |
 |  phone   | string |    phone    | :heavy_minus_sign: |
 | password | string |  password   | :heavy_check_mark: |
+| some_other_parameter | string |  password   | :heavy_minus_sign: |
 
 ### Response
 
@@ -32,6 +33,16 @@ Status: 200
 {
   "username": "username",
   "email": "email"
+}
+```
+
+### Error
+
+```json
+Status: 400
+
+{
+  "error": "Invalid parameters",
 }
 ```
 
